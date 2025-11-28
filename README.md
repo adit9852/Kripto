@@ -18,15 +18,17 @@
 
 ## ⚠️ Notice
 
-**This app is currently under active development. You may encounter bugs or incomplete features. Please report any issues via our [GitHub Issues](https://github.com/YOUR_USERNAME/Kripto/issues) page.**
+**This app is currently under active development. You may encounter bugs or incomplete features. Please report any issues via our [GitHub Issues](https://github.com/adit9852/Kripto/issues) page.**
 
 ---
 
 ## 🎬 Demonstration
 
-Experience Kripto in action: [Live Demo on Appetize.io](https://appetize.io/app/dvuauwvf26e2ha2k3av84d3axc](https://appetize.io/app/b_bwfv35l2yu4chbojkd7a5pti3y)](https://appetize.io/app/b_bwfv35l2yu4chbojkd7a5pti3y)
-
----
+<p align="center">
+  <a href="https://appetize.io/app/b_bwfv35l2yu4chbojkd7a5pti3y">
+    🚀 <b>Launch Live Demo</b>
+  </a>
+</p>
 
 ## 📱 About
 
