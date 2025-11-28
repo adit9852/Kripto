@@ -9,14 +9,14 @@
 
     <ImageView
         android:id="@+id/icon_ftsa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:contentDescription="@string/app_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_kripto" />
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
 
     <include
         android:id="@+id/error_panel"

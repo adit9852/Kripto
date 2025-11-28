@@ -35,7 +35,7 @@ class PriceAlertActivityVM @Inject constructor(
             Resource.loading(null)
         )
     val currentPriceAllCurr = _currentPriceAllCurr.asStateFlow()
-    private val _currentPriceInCurr = MutableStateFlow<BigDecimal>(BigDecimal(0))
+    private val _currentPriceInCurr = MutableStateFlow<BigDecimal>(BigDecimal.ZERO)
     val currentPriceInCurr = _currentPriceInCurr.asStateFlow()
     private val _supportedCurrencies =
         MutableStateFlow<Resource<List<String>>>(Resource.loading(null))

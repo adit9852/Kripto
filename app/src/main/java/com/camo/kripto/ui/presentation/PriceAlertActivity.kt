@@ -73,7 +73,7 @@ class PriceAlertActivity : BaseActivity() {
             viewModel.currentPriceInCurr.collectLatest {
                 val value = Extras.getFormattedDouble(it)
                 binding.tvCurrentPrice.text = value
-                if (it != BigDecimal(0)) {
+                if (it != BigDecimal.ZERO) {
                     binding.editTextLessThan.setText(it.toString())
                     binding.editTextMoreThan.setText(it.toString())
                 }

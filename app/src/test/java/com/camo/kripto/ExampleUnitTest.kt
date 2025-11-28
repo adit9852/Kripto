@@ -4,6 +4,7 @@ import com.camo.kripto.utils.Extras
 import org.junit.Test
 
 import org.junit.Assert.*
+import java.math.BigDecimal
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -17,6 +18,6 @@ class ExampleUnitTest {
     }
     @Test
     fun formatter(){
-        println(Extras.getFormattedDoubleCurr(-1983793712310.985739570, "inr", suffix = ""))
+        println(Extras.getFormattedDoubleCurr(BigDecimal("-1983793712310.985739570"), "inr", suffix = ""))
     }
 }
