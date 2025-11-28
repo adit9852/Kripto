@@ -24,7 +24,7 @@
 
 ## 🎬 Demonstration
 
-Experience Kripto in action: [Live Demo on Appetize.io](https://appetize.io/app/dvuauwvf26e2ha2k3av84d3axc)
+Experience Kripto in action: [Live Demo on Appetize.io]([https://appetize.io/app/dvuauwvf26e2ha2k3av84d3axc](https://appetize.io/app/b_bwfv35l2yu4chbojkd7a5pti3y))
 
 ---
 
