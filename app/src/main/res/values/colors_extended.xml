@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modern Material 3 Extended Colors -->
+
+    <!-- Background Colors - Light Mode -->
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#FAFAFA</color>
+    <color name="surface_variant">#F5F5F5</color>
+
+    <!-- Text Colors - Light Mode -->
+    <color name="on_background">#1C1B1F</color>
+    <color name="on_surface">#1C1B1F</color>
+    <color name="on_surface_variant">#49454F</color>
+
+    <!-- Card Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_elevated">#FAFAFA</color>
+
+    <!-- Status Colors -->
+    <color name="positive">#4CAF50</color>
+    <color name="negative">#F44336</color>
+    <color name="neutral">#757575</color>
+    <color name="warning">#FF9800</color>
+    <color name="info">#2196F3</color>
+
+    <!-- Shimmer Colors -->
+    <color name="shimmer_base">#E0E0E0</color>
+    <color name="shimmer_highlight">#F5F5F5</color>
+
+    <!-- Overlay -->
+    <color name="scrim">#80000000</color>
+    <color name="overlay_dark">#33000000</color>
+
+    <!-- Gradient Colors for Modern Look -->
+    <color name="gradient_start">#667eea</color>
+    <color name="gradient_end">#764ba2</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_grid">#E0E0E0</color>
+    <color name="chart_positive">#26A69A</color>
+    <color name="chart_negative">#EF5350</color>
+</resources>

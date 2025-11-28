@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?android:attr/colorPrimary">
+    <PreferenceCategory
+        android:title="@string/pref_market">
+
+        <DropDownPreference
+            android:defaultValue="inr"
+            android:key="pref_currency"
+            android:summary="%s"
+            android:title="@string/pref_currency" />
+        <DropDownPreference
+            android:key="pref_order"
+            android:summary="%s"
+            android:title="@string/pref_order"
+            android:entries="@array/order_by_array"
+            android:entryValues="@array/order_by_array"/>
+        <DropDownPreference
+            android:key="pref_def_frag"
+            android:summary="%s"
+            android:title="@string/pref_def_start_screen"
+            android:entries="@array/start_screens_array"
+            android:entryValues="@array/start_screens_values" />
+        <DropDownPreference
+            android:key="pref_per_change_dur"
+            android:summary="%s"
+            android:title="@string/pref_per_change_dur"
+            android:entries="@array/market_duration"
+            android:entryValues="@array/market_duration" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/general">
+        <DropDownPreference
+            android:key="pref_theme"
+            android:summary="%s"
+            android:title="@string/pref_theme"
+            android:entries="@array/theme_array"
+            android:entryValues="@array/theme_array_values"/>
+        <DropDownPreference
+            android:key="pref_dark_mode"
+            android:summary="%s"
+            android:title="Dark Mode"
+            android:entries="@array/dark_mode_array"
+            android:entryValues="@array/dark_mode_values"
+            android:defaultValue="system"/>
+        <SwitchPreferenceCompat
+            android:key="pref_biometric_enabled"
+            android:title="Biometric Lock"
+            android:summary="Require fingerprint/face unlock to open app"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>
